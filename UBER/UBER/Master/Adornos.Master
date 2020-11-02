@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adornos.master.cs" Inherits="UBER.Master.Adornos" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Menu Principal</title>
+      <link rel="icon" type="image/png" href=".../images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href=".../images/favicon-16x16.png" sizes="16x16" />
+    <link href="../style/custom-responsive-styles.css" rel="stylesheet" />
+    <link href="../style/styles.css" rel="stylesheet" />
+    <script src="../scripts/all-plugins.js"></script>
+    <script src="../scripts/jquery-3.2.1.min.js"></script>
+    <script src="../scripts/plugins-activate.js"></script>
+    
+  <!--scripts-->
+  
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+        </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>
